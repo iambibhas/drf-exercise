@@ -10,23 +10,23 @@ This is a simple SRF exercise that requires you to build a database and an API o
 
 ```
 {
-  "artist": "22-20s",
+  "artist": "22-20s",  // Artist name
   "timestamp": "2011-08-16 01:35:22.887609",
   "similars": [
     [
-      "TRBNUEO128E0788AE6",
-      1
+      "TRBNUEO128E0788AE6",     // <-- Similar Song ID
+      1                         // <-- similarity score
     ],
     [
-      "TRTKZIA128E0788AE5",
-      0.97458800000000001
+      "TRTKZIA128E0788AE5",     // <-- Similar Song ID
+      0.97458800000000001       // <-- similarity score
     ],
     ...
   ],
   "tags": [
     [
-      "indie",
-      "100"
+      "indie",      // <-- Tag name
+      "100"         // <-- confidence score
     ],
     [
       "rock",
@@ -38,7 +38,7 @@ This is a simple SRF exercise that requires you to build a database and an API o
     ],
     ...
   ],
-  "track_id": "TRBGWVI128E0788AE7",
+  "track_id": "TRBGWVI128E0788AE7",  // Song ID
   "title": "Hold On"
 }
 ```
