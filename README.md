@@ -60,7 +60,7 @@ This is a simple SRF exercise that requires you to build a database and an API o
  - Follow standard REST architecture for url structure and API design.
  - Follow PEP8.
  - Either Python 2.7.x or 3.6 is fine. 3.6 is preferred.
- - You can create a github repo and push the code there and then share the repo url.
+ - You can create a github repo and push the code there and then share the repo url, and add [@iambibhas](https://github.com/iambibhas) as a collaborator so that I receive the notification.
 
 ## Assessment
 
