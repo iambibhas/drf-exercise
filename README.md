@@ -64,6 +64,6 @@ This is a simple SRF exercise that requires you to build a database and an API o
 
 ## Assessment
 
- - Please document how you imported the data. Add the data import script(s) in the repo.
+ - Document how you imported the data. Add the data import script(s) in the repo, preferably as a management command.
  - You can either run the application locally and use something like `ngrok` to demo it, or include the db dump so that we can import the dump to our local db and run our own local server based on your code. (`./manage.py runserver`)
  - Clean readable code is preferred over a feature rich app.
