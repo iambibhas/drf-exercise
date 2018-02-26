@@ -50,6 +50,12 @@ This is a simple SRF exercise that requires you to build a database and an API o
  - E.g. you should be able to find all songs belonging to a certain tag. (Additional points if you can sort by the confidence. Each tag for a song has an integer beside it, that shows the confidence of that song being relating to that tag. E.g. The above song is more indie than rock)
  - You may use any RDBMS, but Postgres is preferred.
  - After the data is imported, you need to build an API on top of it using Django REST Framework.
+   - Endpoint to list all entities
+   - Endpoint to list related songs for a given song, sorted accordingly
+   - Endpoint to list all songs for a given tag
+   - Endpoint to search for songs
+   - Endpoint to search for artist
+   - Endpoint to list all songs for a given artist
  - Open API without any authentication is fine. If you feel like doing it, add token based authentication.
  - Follow standard REST architecture for url structure and API design.
  - Follow PEP8.
@@ -58,6 +64,6 @@ This is a simple SRF exercise that requires you to build a database and an API o
 
 ## Assessment
 
- - Please document how you imported the data. If possible add the import script(s) in the repo.
+ - Please document how you imported the data. Add the data import script(s) in the repo.
  - You can either run the application locally and use something like `ngrok` to demo it, or include the db dump so that we can import the dump to our local db and run our own local server based on your code. (`./manage.py runserver`)
  - Clean readable code is preferred over a feature rich app.
